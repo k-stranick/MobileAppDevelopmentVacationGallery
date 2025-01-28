@@ -1,0 +1,41 @@
+.card {
+    margin-top: 2em;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 0.5s; /* Add a slight delay */
+    border: 1px solid #0f0f0f;
+    border-radius: 4px;
+}
+
+.card:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #9d89c2;
+    margin: 0;
+    padding: 0;
+}
+img {
+    padding: 5px;
+    width: 150em;
+    height:150px;
+  }
+.img-thumbnail {
+    width: 75%;
+}
+@media (max-width: 800px) {
+    .col-md-3 {
+        width: 50%;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
