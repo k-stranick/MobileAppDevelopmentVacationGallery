@@ -31,3 +31,8 @@ fetch('photoCardInformation.json')
             <h1>Utah</h1>
             <!-- Cards will be inserted here dynamically -->
         </div>*/
+
+        /*
+        https://www.w3schools.com/js/js_json_parse.asp
+        https://www.geeksforgeeks.org/read-json-file-using-javascript/
+        */
