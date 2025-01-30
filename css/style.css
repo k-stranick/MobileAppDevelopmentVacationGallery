@@ -18,23 +18,31 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
-    background-color: #9d89c2;
+    color: #ffffff;
+    background-color: #4fa8a1;
     margin: 0;
     padding: 0;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.background-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.3)), url("../images/penn3.jpg") no-repeat center ;
+    /* Add a semi-transparent overlay on top of the background image */
+    background-attachment: fixed;
 }
 
 img {
     padding: 5px;
     width: 150em;
-    height: 150px;
+    height: 300px;
 }
 
-.img-thumbnail {
+/* .img-thumbnail {
     width: 75%;
-}
+} 
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     .col-md-3 {
         width: 50%;
     }
@@ -44,8 +52,12 @@ img {
     .col-md-3 {
         width: 100%;
     }
-}
+} */
 
+.modal-body {
+    background-color:#2e5f22;
+    font-weight: bolder;
+}
 
 @keyframes fadeIn {
     to {
