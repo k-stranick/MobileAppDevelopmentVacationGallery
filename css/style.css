@@ -9,7 +9,7 @@
 }
 
 .card:hover {
-    box-shadow: 4px 4px 4px 4px rgba(7, 7, 7, 0.5);
+    box-shadow: 4px 4px 4px 4px rgba(7, 7, 7, 0.8);
     cursor: pointer;
     transform: translateY(-5px);
 }
@@ -27,15 +27,31 @@ body {
 
 .background-img {
     background: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.3)), url("../images/penn3.jpg") no-repeat center ;
+            rgba(0, 0, 0, 0.4)), url("../images/penn3.jpg") no-repeat center ;
     /* Add a semi-transparent overlay on top of the background image */
     background-attachment: fixed;
+}
+
+video {
+    border: 6px  solid #0f0f0f;
+    border-radius: 10px;
 }
 
 img {
     padding: 5px;
     width: 150em;
     height: 300px;
+}
+
+.modal-body {
+    background-color:#2e5f22;
+    font-weight: bolder;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 
 /* .img-thumbnail {
@@ -53,14 +69,3 @@ img {
         width: 100%;
     }
 } */
-
-.modal-body {
-    background-color:#2e5f22;
-    font-weight: bolder;
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
